@@ -620,14 +620,19 @@ footer {
     background: url(../images/header1_lg.jpg) no-repeat center left;
     background-size: cover;
     text-align: left;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: .25fr 1fr .25fr;
+    align-items: center;
   }
 
   .hero img {
     margin: 0 0 0 auto;
+    grid-row: 2 / 3;
   }
 
   .hero article {
     max-width: 1000px;
+    grid-column: 3 / 6;
   }
 
   /* ######### 10a-ii. Navigation, Large screen rules ######### */
