@@ -156,6 +156,9 @@ i {
   border-bottom: 1px solid #e0e5eb;
   box-shadow: 0px 1px 8px #223055;
   padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 input#navToggle {
@@ -266,6 +269,9 @@ nav .btn {
   padding: 0.25rem 0.6rem;
   letter-spacing: 1px;
   text-shadow: 0 0 1px rgb(19, 177, 231);
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 
 nav .btn:hover {
