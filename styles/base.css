@@ -489,6 +489,8 @@ section.problem {
   padding: 1rem;
 }
 
+
+
 .action h3 {
   color: #35b1e8;
   font-style: italic;
@@ -503,6 +505,9 @@ section.problem {
 .action article h1 {
   margin-left: 1rem;
 }
+
+
+
 
 .action ul li {
   border: solid 1px #dedede;
@@ -836,7 +841,27 @@ footer {
     display: none;
   }
 
+
+/*action large screen rules*/
+  .action article{
+    margin-bottom: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+  .action ul{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .action ul li{
+    flex-basis: 40%;
+    grid-template-columns: 2fr 4fr;
+  }
+
   /* ######### 10a-viii. Footer, Large screen rules ######### */
+
+
   footer {
   }
 
